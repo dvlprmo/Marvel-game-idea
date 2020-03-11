@@ -1,0 +1,339 @@
+body{
+
+}
+.bodyH{
+    background-image: url("https://www.lefthudson.com/wp-content/uploads/2019/11/super-villain-wallpapers-luxury-marvel-villains-wallpapers-wallpaper-cave-this-month-of-super-villain-wallpapers.jpg");
+}
+.bodyG{
+    background-image: url("https://wallpaperaccess.com/full/152843.jpg");
+}
+main{
+    margin-top: 100px;
+}
+.total{
+    text-align: center;
+    margin-left: 78px;
+    font-size: 35px;
+    font-weight: bolder;
+}
+.result{
+    margin-left: 850px;
+    opacity: 0.9;
+    width: 260px;
+    height: 50px;
+    background-color: white;
+    
+}
+.copying{
+    width: 500px;
+    height: 30px;
+    background-color: white;
+    opacity: 0.7;
+    margin-left: 725px;
+}
+.copyingMain{
+    width: 500px;
+    height: 30px;
+    background-color: white;
+    opacity: 0.7;
+    margin-left: 695px;
+
+}
+.copyRight{
+    margin-left: 173px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: bolder;
+}
+.time{
+    opacity: 0.7;
+    width: 200px;
+    height: 30px;
+    background-color: white;
+    margin-left: 1700px;
+}
+.timer{
+    font-size: 20px;
+    color: black;
+    text-align: center;
+}
+.date{
+    opacity: 0.7;
+    width: 200px;
+    height: 30px;
+    background-color: white;
+    margin-left: 1700px;
+    
+}
+.history{
+    
+    font-size: 20px;
+    color: black;
+    text-align: center;
+    margin: auto;
+}
+
+.watch, countingDown, .watcher{
+    margin-left: 20px;
+    font-weight: bolder;
+    font-size: 20px;
+}
+.white{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.GoDown{
+    background-color: white;
+    font-size: 25px;
+    width: 350px;
+    height: 100px;
+    text-align: center;
+    font-weight: bolder;
+    opacity: 0.7;
+    margin-left: 800px;
+    padding-top: 40px;
+}
+.button{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 20px;
+    width: 100px;
+    height: 40px;
+    opacity: 0.8;
+}
+.button:hover{
+    color: red;
+    font-size: 30px;
+}
+
+
+.music{
+    margin-left: 860px;
+    margin-top: 10px;
+
+}
+.buttonP, .buttonPP{
+    width: 120px;
+    height: 50px;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+    opacity: 0.9;
+}
+.cardsMar{
+    display: grid;
+    width: 50px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-left: 430px;
+    gap: 10px;
+    
+}
+.imageSQPP{
+    border: 4px solid white;
+    margin: 40px;
+}
+
+.mLetter{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: purple;
+    font-size: 30px;
+}
+
+.marvel{
+    color: white;
+    font-size: 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.button{
+    margin-left: 850px;
+    margin-top: 10px;
+    width: 200px;
+}
+.arrow{
+    font-size: 150px;
+    margin-left: 900px;
+    color: orange;
+    animation-name: example;
+    animation-iteration-count: 1000;
+    animation-duration: 1s;
+}
+@keyframes example{
+    from{color: red;}
+    to {color: yellow;}
+}
+.ready{
+    margin-top: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+ 
+}
+.punish{
+    font-size: 65px;
+    color: orange;
+    font-family: Arial, Helvetica, sans-serif;
+    animation-name: punisher;
+    animation-iteration-count: 1000;
+    animation-duration: 1s;
+}
+@keyframes punisher{
+    from{color:red;}
+    to {color: #FF9A00;} 
+}
+.homePage{
+    margin-left: 750px;
+    margin-right: 750px;
+    text-align: center;
+   
+    background-color: white;
+}
+.buttonP:hover{
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: red;
+}
+.buttonPP:hover{
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    color: red;
+}
+#marvelPlayer, #level3, #level2, #level1, #loser{
+    background-color: white;
+    opacity: 0.8;
+    margin-left: 580px;
+    margin-right: 550px;
+    
+}
+
+#marvelPlayer h1{
+    color: black;
+    font-size: 50px;
+    text-align: center;
+    animation-name: punisher;
+    animation-iteration-count: 1000;
+    animation-duration: 3s;
+
+}
+#level3 h1{
+    color: black;
+    font-size: 50px;
+    text-align: center;
+    animation-name: punisher;
+    animation-iteration-count: 1000;
+    animation-duration: 3s;
+}
+#level2 h1{
+    color: black;
+    font-size: 50px;
+    text-align: center;
+    animation-name: punisher;
+    animation-iteration-count: 1000;
+    animation-duration: 3s;
+
+}
+#level1 h1{
+    color: black;
+    font-size: 50px;
+    text-align: center;
+    animation-name: punisher;
+    animation-iteration-count: 1000;
+    animation-duration: 3s;
+
+}
+#loser h1{
+    color: black;
+    font-size: 50px;
+    text-align: center;
+    animation-name: punisher;
+    animation-iteration-count: 1000;
+    animation-duration: 3s;
+}
+.playAgain{
+    width: 150px;
+    height: 50px;
+    font-size: 25px;
+    margin-left: 900px;  
+    opacity: 0.9;
+}
+.playAgain:hover{
+    color: red;
+    font-size: 30px;
+}
+.first{
+    margin-top: 40px;
+    width: 700px;
+    font-size: 40px;
+    overflow: hidden;
+    font-weight: bolder;
+    margin-top: 70px;
+    margin-left: 600px;
+    margin-right: 600px;
+    opacity: 0.8;
+}
+.second{
+    height: 50px;
+    padding-left: 100%;
+    background-color: white;
+}
+.third{
+    display: inline-block;
+    white-space: nowrap;
+    padding-right: 100%;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-name: challange;
+    animation-duration: 7s;
+}
+
+@keyframes challange{
+    0% { transform: translate3d(0, 0, 0); }
+    100% { transform: translate3d(-100%, 0, 0); }
+}
+.third:hover{
+    animation-play-state: paused;
+}
+
+.fourth{
+    display: inline-block;
+    padding: 0 2rem;
+}
+.containerRules{
+    background-color: white;
+    width: 600px;
+    height: 250px;
+    opacity: 0.8;
+    margin-left: 650px;
+    
+}
+.buttonList{
+    font-size: 30px;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+    animation-name: lists;
+    animation-iteration-count: 1000;
+    animation-duration: 2s;
+}
+@keyframes lists{
+    from{color:red;}
+    to {color: #FF7700;} 
+}
+.playAgainRule, .playAgainDev{
+    width: 150px;
+    height: 40px;
+    font-size: 25px;
+    margin-top: 50px;
+    margin-left: 230px;  
+    margin-bottom: 50px;
+    opacity: 0.9;
+
+}
+
+.playAgainRule:hover{
+    color: red;
+    font-size: 30px;
+}
+.playAgainDev:hover{
+    color: red;
+    font-size: 30px;
+}

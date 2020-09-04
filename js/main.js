@@ -268,7 +268,6 @@ function startTimer(duration, display) {
         }
     }, 1000);
 }
-
 window.onload = function () {
     let theOneMinutes = 60;
     display = document.querySelector('#time');
@@ -276,8 +275,6 @@ window.onload = function () {
 };
 
 let audio = document.querySelector(".audio");
-
-
 function playMusic(){
     audio.play();
     audio.loop = true; // to loop the music when is ended. 
